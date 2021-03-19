@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { validateEmail } from '../../utils/helpers';
-function Contact(props) {
+function Contact() {
 
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
@@ -36,7 +36,6 @@ function Contact(props) {
 
     return (
         <div>
-            { props.renderedComponent === "Contact" ? (<>
                 <section>
           <h1 data-testid="h1tag">Contact me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
@@ -64,7 +63,6 @@ function Contact(props) {
           </form>
         </section>
             
-            </>) : (<>Contact not selected</>) }
         </div>
     );
 }
