@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 function Contact() {
 
@@ -17,12 +17,12 @@ function Contact() {
             } else {
                 if (!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);
-                  } else {
+                } else {
                     setErrorMessage('');
-                  }
-    
+                }
+
             }
-          }  
+        }
         // Without the spread operator(...), the formState object would be overwritten to only contain the name: value key pair.
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
@@ -35,8 +35,33 @@ function Contact() {
     }
 
     return (
-        <div>
-                <section>
+
+        <section id="reach-out" className="contact">
+            
+
+                <div className="contact-form">
+                    <h3 data-testid="h1tag">Contact Me</h3>
+                    <form id="contact-form" onSubmit={handleSubmit}>
+                        <label htmlFor="contact-name">Your Name</label>
+                        <input type="text" defaultValue={name} onBlur={handleChange} name="name" id="contact-name" placeholder="Your Name" />
+                        <label htmlFor="email">Email address:</label>
+                        <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                        <label htmlFor="contact-message">Message</label>
+                        <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" id="contact-message" placeholder="Message"></textarea>
+
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
+                        <button data-testid="button" type="submit">Submit</button>
+                    </form>
+                    </div>
+            
+        </section>
+
+
+                /* <section>
           <h1 data-testid="h1tag">Contact me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
            <div>
@@ -61,9 +86,8 @@ function Contact() {
             <button data-testid="button" type="submit">Submit</button>
 
           </form>
-        </section>
+        </section> */
             
-        </div>
     );
 }
 
