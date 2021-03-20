@@ -90,6 +90,10 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+img {
+  width: 100%
+}
+
 footer {
   background: var(--primary-color);
   width: 100%;
