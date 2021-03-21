@@ -7,37 +7,47 @@ function Projects() {
                 <div className="col-12">
                     <h2 id="projects">Projects</h2>
                 </div>
-                <div className="col-6">
-                  <h3>Run Buddy</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus esse aspernatur animi, veritatis saepe deleniti aliquid a, quidem officiis quod unde laboriosam iste aperiam ratione illo. Quos voluptate autem aperiam!</p>
-                </div>
-                <div className="col-6">
-                    <a href="https://reaganjoseph26.github.io/run-buddy/"><img src={require(`../../assets/images/runbuddy.jpg`).default} alt="RUN BUDDY"/></a>
-                </div>
-
+                
                 <div className="col-6">
                   <h3>Movie Hunt</h3>
-                  <p>Movie Hunt is a web application dedicated to movie lovers. Users are able to search the site for any movie they wish as well as save the movie. The Movie Database API provides the data for the site. For more informoation on the technologices used, the process it ook to create the application, and my collaborators, visist the repositiory here:  <a href="https://github.com/reaganjoseph26/Movie-Hunt.git">Movie Hunt Repo.</a></p>
+                  <p>Movie Hunt is a web application dedicated to movie lovers. Users are able to search the site for any movie they wish as well as save the movie. The Movie Database API provides the data for the site. For more information on the technologies used, the process it took to create the application, and my collaborators, visit the repositiory here:  <a href="https://github.com/reaganjoseph26/Movie-Hunt.git">Movie Hunt Repo.</a></p>
                 </div>
                 <div className="col-6">      
                   <a href="https://reaganjoseph26.github.io/Movie-Hunt/"><img src={require(`../../assets/images/movie-hunt.jpg`).default} alt="Movie Hunt"/></a>
                 </div>
 
                 <div className="col-6">
-                  <h3>Taskmaster Pro</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quo, ad voluptates, voluptatum cumque praesentium eum culpa vitae facere, quis ut harum? Deserunt voluptatem omnis repudiandae aliquam tenetur ex nam.</p>
+                  <h3>Creepy Ventures</h3>
+                  <p>Creepventures is a social media based blog system that allows users, once they register, to make posts and add locations of haunted locations that reflect on the map on the home page. Once logged in, they are able to make comments and favorite posts on their dashboard. They are able to edit and delete their own posts and interact with other users on the posts through the comments.For more information on the technologies used, the process it took to create the application, and my collaborators, visit the repositiory here:  <a href="https://github.com/reaganjoseph26/creepy-ventures">Creepy Ventures Repo.</a></p>
                 </div>
-                <div className="col-6">
-                  <a href="https://reaganjoseph26.github.io/taskmaster-pro/"><img src={require(`../../assets/images/taskmaster-pro.jpg`).default} alt="Taskmaster-pro"/></a>
+                <div className="col-6">      
+                  <a href=" https://peaceful-stream-83088.herokuapp.com/"><img src={require(`../../assets/images/dashboard.jpg`).default} alt="Creepy Ventures"/></a>
                 </div>
 
                 <div className="col-6">
-                  <h3>Work-Day Scheduler</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iste atque. Earum aliquid recusandae perferendis numquam quod autem aut rem consectetur nulla possimus? Consequatur soluta, voluptates quisquam beatae placeat illo?</p>
+                  <h3>Budget Tracker</h3>
+                  <p>Budget Tracker is a project to manage your funds by budgeting your transactions. It is a progressive web application functions while offline with the help of service workers and indexedDB.For more information on the technologies used, and the process it took to create the application, visit the repositiory here:  <a href="https://github.com/reaganjoseph26/creepy-ventures">Budget Tracker Repo.</a></p>
                 </div>
-                <div className="col-6"> 
-                <a href="https://reaganjoseph26.github.io/Work-Day-Scheduler-/"><img src={require(`../../assets/images/work-day-sched.jpg`).default} alt="Work-Day Scheduler"/></a>
+                <div className="col-6">
+                  <a href="https://stark-forest-55745.herokuapp.com/"><img src={require(`../../assets/images/Screenshot.jpg`).default} alt="Taskmaster-pro"/></a>
                 </div>
+
+                <div className="col-6">
+                  <h3>Team Profile Generator</h3>
+                  <p> This command line application generates a HTML page that provides summaries for different employee types using user input from the command line. For more information on the technologies used, and the process it took to create the application, visit the repositiory here:  <a href="https://github.com/reaganjoseph26/Team-Profile-Generator">Team Profile Generator Repo.</a></p>
+                </div>
+                <div className="col-6">
+                  <a href="https://www.youtube.com/watch?v=Ct6hzEAVkug"><img src={require(`../../assets/images/browser-screenshot.jpg`).default} alt="Team Profile Generator"/></a>
+                </div>
+
+                <div className="col-6">
+                  <h3>Weather Dashboard</h3>
+                  <p> Weather Dashboard is a weather application that grabs the current and five day weather forecast information for any applicable city name using a server side api. For more information on the technologies used, and the process it took to create the application, visit the repositiory here:  <a href="https://github.com/reaganjoseph26/weather-dashboard">Weather Dashboard Repo.</a></p>
+                </div>
+                <div className="col-6">
+                  <a href="https://reaganjoseph26.github.io/weather-dashboard/"><img src={require(`../../assets/images/Screenshot2.jpg`).default} alt="Weather Dashboard"/></a>
+                </div>
+
             </div>
         
     );

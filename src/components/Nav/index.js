@@ -5,6 +5,7 @@ function Nav(props) {
         <>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
+                <h1>Reagan Joseph</h1>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item" onClick={() => {props.setRenderedComponent("About")}}>

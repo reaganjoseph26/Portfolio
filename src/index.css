@@ -31,6 +31,15 @@ body {
 
 }
 
+h1 {
+  width: 80%
+}
+
+.nav-link {
+  justify-content: center;
+  margin-right: 45px
+}
+
 header {
   /* Header changes. header includes nav*/
   /* 20px is top and bottom, 35px indicates left and right*/
