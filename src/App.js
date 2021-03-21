@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-// import Nav from './components/Nav/index'
 import Header from './components/Header/index'
 import About from './components/About/index'
 import Contact from './components/Contact/index'
