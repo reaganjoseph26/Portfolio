@@ -10,12 +10,10 @@
 
 main {
 	margin: 0 auto;
-	/* max-width: 90%; */
   padding: 50px 10px;
 }
 
-html,
-body {
+body, html {
   min-height: 100%;
 } 
 
@@ -28,17 +26,56 @@ body {
 body {
   color: var(--teritary-color);
   font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
 
 }
 
 h1 {
-  width: 80%
+  width: 80%;
+  color: rgba(0,0,0,.55);
+  font-style: oblique;
 }
 
 .nav-link {
   justify-content: center;
-  margin-right: 45px
+  margin-right: 45px;
 }
+
+.navbar {
+  background-color: lightgrey
+}
+
+li {
+  font-size: 22px
+}
+
+.card-text {
+  color: white
+}
+
+.card-body, .col-md-8{
+  background-color: black;
+}
+
+#about-card {
+  background-color: black;
+}
+
+.project-a {
+  text-decoration: none;
+  font-style: oblique;
+  color: red;
+}
+ p{
+   color: white;
+ }
+
+ h3 {
+   color: lightgrey;
+   font-style: oblique;
+ }
+
+
 
 header {
   /* Header changes. header includes nav*/
@@ -103,20 +140,25 @@ img {
   width: 100%
 }
 
+.project-img:hover {
+  opacity: 0.7;
+}
+
+
 footer {
-  background: var(--primary-color);
+  background-color: lightgrey;
   width: 100%;
-  padding: 40px 35px;
+  padding: 20px 35px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: absolute;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
 }
 
-footer h2 {
-  color: var(--secondary-color);
-  font-size: 30px;
-  margin: 0;
-}
 
 footer div {
   line-height: 1.5;
@@ -124,7 +166,8 @@ footer div {
 }
 
 footer a {
-  color: var(--secondary-color);
+ padding-right: 32px;
+ justify-content: space-evenly;
 }
 
 
@@ -267,15 +310,6 @@ footer a {
       text-align: center;
   }
 
-  header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-  }
-
-  header nav ul li a {
-      font-size: 20px;
-  }
 
   footer h2, footer div {
       text-align: center;
