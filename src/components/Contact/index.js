@@ -40,7 +40,6 @@ function Contact() {
             
 
                 <div className="contact-form">
-                    <h3 data-testid="h1tag">Contact Me</h3>
                     <form id="contact-form" onSubmit={handleSubmit}>
                         <label htmlFor="contact-name">Your Name</label>
                         <input type="text" defaultValue={name} onBlur={handleChange} name="name" id="contact-name" placeholder="Your Name" />

@@ -126,7 +126,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(236, 37, 22, 0.5);
 }
 
 header nav ul li a:hover {
@@ -265,7 +265,7 @@ footer a {
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: var(--secondary-color);
+  background-color: black;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
@@ -273,14 +273,22 @@ footer a {
   outline: none;
 }
 
+#contact-form {
+  background-color: black;
+}
+
 .contact-form textarea {
-  background-color: rgba(202, 228, 240, 1);
+  background-color: rgb(208, 236, 245)
+}
+
+.contact-form label, input {
+  color: white
 }
 
 .contact-form button {
   width: 100%;
   border: none;
-  background: var(--primary-color);
+  background-color :lightgrey;
   color: var(--secondary-color);
   text-align: center;
   padding: 15px 0;
@@ -289,8 +297,8 @@ footer a {
 }
 
 .contact-form button:hover {
-  color: var(--primary-color);
-  background: var(--teritary-color);
+  color: white;
+  background-color: lightgreen
 }
 
 .flex-row {
