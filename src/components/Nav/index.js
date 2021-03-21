@@ -9,13 +9,13 @@ function Nav(props) {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item" onClick={() => {props.setRenderedComponent("About")}}>
-                                <a className={`nav-link ${props.contactSelected && 'navActive'}`} aria-current="page" href="#">About Me</a>
+                                <a className={`nav-link ${props.contactSelected && 'navActive'}`} aria-current="page" href="#About">About Me</a>
                             </li>
                             <li className="nav-item" onClick={() => {props.setRenderedComponent("Projects")}}>
-                                <a className={`nav-link ${props.contactSelected && 'navActive'}`} aria-current="page" href="#">Projects</a>
+                                <a className={`nav-link ${props.contactSelected && 'navActive'}`} aria-current="page" href="#Projects">Projects</a>
                             </li>
                             <li className="nav-item" onClick={() => {props.setRenderedComponent("Contact")}}>
-                                <a className={`nav-link ${props.contactSelected && 'navActive'}`} aria-current="page" href="#">Contact Me</a>
+                                <a className={`nav-link ${props.contactSelected && 'navActive'}`} aria-current="page" href="#Contact">Contact Me</a>
                             </li>
                         </ul>
                     </div>

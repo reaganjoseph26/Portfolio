@@ -25,7 +25,7 @@ function Projects() {
 
                 <div className="col-6">
                   <h3>Budget Tracker</h3>
-                  <p>Budget Tracker is a project to manage your funds by budgeting your transactions. It is a progressive web application functions while offline with the help of service workers and indexedDB.For more information on the technologies used, and the process it took to create the application, visit the repositiory here:  <a className="project-a" href="https://github.com/reaganjoseph26/creepy-ventures">Budget Tracker Repo.</a></p>
+                  <p>Budget Tracker is a project to manage your funds by budgeting your transactions. It is a progressive web application that functions while offline with the help of service workers and indexedDB.For more information on the technologies used, and the process it took to create the application, visit the repositiory here:  <a className="project-a" href="https://github.com/reaganjoseph26/creepy-ventures">Budget Tracker Repo.</a></p>
                 </div>
                 <div className="col-6">
                   <a href="https://stark-forest-55745.herokuapp.com/"><img className="project-img" src={require(`../../assets/images/Screenshot.jpg`).default} alt="Taskmaster-pro"/></a>
