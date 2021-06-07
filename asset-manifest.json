@@ -1,29 +1,31 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.fc7abdf2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.268384ee.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.268384ee.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.b5c106c9.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b5c106c9.js.map",
-    "static/js/2.892aa445.chunk.js": "/Portfolio/static/js/2.892aa445.chunk.js",
-    "static/js/2.892aa445.chunk.js.map": "/Portfolio/static/js/2.892aa445.chunk.js.map",
-    "static/js/3.c3f0dcd8.chunk.js": "/Portfolio/static/js/3.c3f0dcd8.chunk.js",
-    "static/js/3.c3f0dcd8.chunk.js.map": "/Portfolio/static/js/3.c3f0dcd8.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6248aaff.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6248aaff.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.c1cdcd0a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c1cdcd0a.js.map",
+    "static/js/2.a17bc1d2.chunk.js": "/Portfolio/static/js/2.a17bc1d2.chunk.js",
+    "static/js/2.a17bc1d2.chunk.js.map": "/Portfolio/static/js/2.a17bc1d2.chunk.js.map",
+    "static/js/3.c95bfdf3.chunk.js": "/Portfolio/static/js/3.c95bfdf3.chunk.js",
+    "static/js/3.c95bfdf3.chunk.js.map": "/Portfolio/static/js/3.c95bfdf3.chunk.js.map",
     "index.html": "/Portfolio/index.html",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "service-worker.js.map": "/Portfolio/service-worker.js.map",
     "static/css/main.fc7abdf2.chunk.css.map": "/Portfolio/static/css/main.fc7abdf2.chunk.css.map",
-    "static/js/2.892aa445.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.892aa445.chunk.js.LICENSE.txt",
+    "static/js/2.a17bc1d2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a17bc1d2.chunk.js.LICENSE.txt",
+    "static/media/Me.jpg": "/Portfolio/static/media/Me.35352e91.jpg",
     "static/media/Screenshot.jpg": "/Portfolio/static/media/Screenshot.c1c3b888.jpg",
     "static/media/Screenshot2.jpg": "/Portfolio/static/media/Screenshot2.34d3117c.jpg",
     "static/media/browser-screenshot.jpg": "/Portfolio/static/media/browser-screenshot.35cd3c67.jpg",
     "static/media/dashboard.jpg": "/Portfolio/static/media/dashboard.bf683453.jpg",
     "static/media/movie-hunt.jpg": "/Portfolio/static/media/movie-hunt.363b57ee.jpg",
-    "static/media/reagan.jpg": "/Portfolio/static/media/reagan.5bc29ef9.jpg",
     "static/media/terminalexample.jpg": "/Portfolio/static/media/terminalexample.d719ecbd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5c106c9.js",
-    "static/js/2.892aa445.chunk.js",
+    "static/js/runtime-main.c1cdcd0a.js",
+    "static/js/2.a17bc1d2.chunk.js",
     "static/css/main.fc7abdf2.chunk.css",
-    "static/js/main.268384ee.chunk.js"
+    "static/js/main.6248aaff.chunk.js"
   ]
 }
