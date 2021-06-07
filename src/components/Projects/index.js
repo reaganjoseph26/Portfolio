@@ -3,6 +3,7 @@ import React from 'react';
 
 function Projects() {
     return (
+      
             <div id="projects" className="row align-items-start">
                 <div className="col-12">
                 </div>
