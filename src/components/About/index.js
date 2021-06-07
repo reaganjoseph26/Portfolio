@@ -6,7 +6,7 @@ function About() {
              <div id="about-card" className="card mb-3">
                 <div className="row g-0">
                   <div className="col-md-4">
-                    <img src={require(`../../assets/images/reagan.jpg`).default} alt="Reagan."/>
+                    <img src={require(`../../assets/images/Me.jpg`).default} alt="Reagan."/>
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
