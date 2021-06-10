@@ -14,8 +14,6 @@
   -HTML5
   -CSS3
 
-  
-
   ## Usage
   Check out my old and recent projects posted on github and how to reach out to me. [View Portfolio Here](http://reaganjoseph26.github.io/Portfolio)
   </br>

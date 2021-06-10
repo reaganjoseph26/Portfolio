@@ -15,6 +15,18 @@ let scene = new ScrollMagic.Scene({
 .setPin("section")
 .addTo(controller)
 
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-links li')
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  links.forEach(link => {
+      link.classList.toggle('fade');
+  })
+})
+
+
 
 const carouselInner = document.querySelector('.carousel-inner');
 const slides = Array.from(carouselInner.children);
