@@ -1,7 +1,7 @@
   # My Portfolio 
 
   ## Description
-  My portfolio displaying a introduction to me, my projects so far, and how to reach me.
+  A clean design site introducing myself, the best projects I have completed, and how to contact me. 
 
   ## Table of Contents
   * [Technologies](#installation)
@@ -10,11 +10,14 @@
   
 
   ## Technologies
-  My portfolio was built with the help of react, bootstrap, and service workers. 
+  - Javascript
+  -HTML5
+  -CSS3
+
   
 
   ## Usage
-  Check out my old and recent works posted on github and how to reach out to me. [Click Me](http://reaganjoseph26.github.io/Portfolio)
+  Check out my old and recent projects posted on github and how to reach out to me. [View Portfolio Here](http://reaganjoseph26.github.io/Portfolio)
   </br>
   ![ScreenShot](/assets/images/preview.jpg)
 
