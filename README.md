@@ -16,7 +16,7 @@
   ## Usage
   Check out my old and recent works posted on github and how to reach out to me. [Click Me](http://reaganjoseph26.github.io/Portfolio)
   </br>
-  ![ScreenShot](./src/assets/images/portfolio.jpg)
+  ![ScreenShot](/assets/images/preview.jpg)
 
 
 

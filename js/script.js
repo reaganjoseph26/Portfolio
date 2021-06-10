@@ -2,7 +2,7 @@ let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
 
 timeline
-.to(".jennifer", 3, {y: -300}, '-=3')
+.to(".hero-img", 3, {y: -300}, '-=3')
 .to('.content', 3, {top: '0%'}, '-=3')
 // .fromTo(".content-images", 2, {opacity: 0}, {opacity: 1})
 
