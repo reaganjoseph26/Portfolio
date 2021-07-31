@@ -1,122 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Everything Reagan</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
-    
-    </head>
+    <!-- Icons -->
+    <link href="assets/css/FontAwesome/css/all.css" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" class="rel">
+    <title>Reagan Joseph</title>
+</head>
+<body>
+    <section class="hero-enter hide">
+        <div class="div"></div>
+    </section>
 
-    <body>
-
-        <section>
-            <nav>
-                <h4> Dev Reagan.</h4>
-                <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+    <header id="about" class="header">
+        <div class="about-container">
+            <div class="row justify-content-between">
+                <div class="logo">
+                    <a href="index.html" class="header-link">r</a>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#about">Who am I?</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
 
-            <div class="container">
-                <img src="assets/images/hero.jpg" class="hero-img" alt="">
+                <div class="theme-switch hover-in-shadow">
+                </div>
+             </div>
+        </div>
+    </header>
+
+    <section class="home-section section hide-body">
+
+        <div class="effect-wrap">
+            <div class="effect effect-1"></div>
+
+            <div class="effect effect-2">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div>
             </div>
-            <div class="content">
-                <div class="content-images">
-                    <div id="about">
-                        <h4>Who am I?</h4>
-                        <img src="assets/images/Me.jpg" class="me" alt="">
+
+            <div class="effect effect-3"></div>
+            <div class="effect effect-4"></div>
+        </div>
+
+        <div class="home-container">
+            <div class="row full-screen align-items-center">
+                <div class="home-text">
+                    <p id="home-hello" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Hello</p>
+                    <h2 class='home-h2' data-aos="fade-up" data-aos-duration="2500"data-aos-delay="300">I'm Reagan</h2>
+                    <h1 class='home-h1' data-aos="fade-up" data-aos-duration="2500"data-aos-delay="400">Web Developer</h1>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img  data-aos-duration="2500" data-aos="fade-up" data-aos-delay="400" src="assets/images/Me.jpg" alt="profile-photo">
                     </div>
                 </div>
-                <p class="text">
-                    Analytical Full Stack Web Developer with a passion for taking creative ideas and bringing them to life. A background in customer service, sales representation, and global studies.  Earned a Bachelor of Arts in International & Global Studies and a Coding Certificate in Web Development at University of Central Florida. Bring versatility from my eclectic skill set in both backend and frontend knowledge as well as the ability to work efficiently independently or in a team. Excellent problem solver and learner. 
-                </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <div class="projects">
-            <h4> Projects.</h4>
+    <h2 class="about-descrip" data-aos="fade-right" data-aos-duration="800" data-aos-offset="100">Who am I?</h2>
+    <section class="about-descrip-text" data-aos="fade-up" data-aos-duration="800" data-aos-offset="300">
+        <p>Hello! My name is Reagan Joseph and I am a Full Stack Web Developer with expertise in MERN Stack!</p>
+        <br>
+        <p>In addition, I am a creative thinker with a passion for taking creative ideas and bringing them to life. I have a background in customer service, sales representation, and global studies.  Earned a Bachelor of Arts in International & Global Studies and a Coding Certificate in Web Development at the University of Central Florida. I bring versatility from my eclectic skill set in both backend and frontend knowledge as well as the ability to work efficiently independently or in a team. Excellent problem solver and learner.
+        </p>
+        <br>
+        <br>
+        <p class="highlight-text">Within this Portfolio you can see some of my past projects that I've completed as well as current projects that I am tackling!</p>
+    </section>
+
+    <h2 class="featured-projects" data-aos="fade-right" data-aos-duration="800" data-aos-offset="300">Featured Projects</h2>
+    <section class="cards-container">
+        <!---P1--->
+        <div class="card"  data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="100">
+            <div class="content">
+                <h2 class="card-h2">P1</h2>
+                <h3 class="card-h3">Movie Hunt</h3>
+                <img src="assets/images/movie-hunt.jpg">
+                <a data-popup-id="p1" class="card-links">Read More</a>
+            </div>
+        </div>
+        <!---------PROJECT POPUP DIV------------>
+        <div id="p1" class="popup">
+            <p class="popup-text">Movie-Hunt is a movie-based web application designed for users to search through thousands of movies. They can save movies to a watchlist, watch trailers, and explore other details about the movie. 
+            <br>
+            Technologies/Tools: JavaScript, jQuery, HTML5, CSS3, Materialize, TMBD API, GIPHY API, and moment.js
+            <br>
+            <div class="popup-links">
+                <a href="https://github.com/reaganjoseph26/Movie-Hunt" target="_blank">Link to Repo</a>
+                <a href="https://reaganjoseph26.github.io/Movie-Hunt/" target="_blank">Deployed Link</a>
+            </div>
+            </p>
+            <a class="card-links">Close</a>
         </div>
 
-        <section id="projects">
-            <div class="carousel">
-                <button class="carousel-button-left is-hidden">
-                    <i class="fa fa-arrow-left"></i>
-                </button>
-                <div class="carousel-container">
-                    <ul class="carousel-inner">
-                        <li class="carousel-item current-item">
-                            <p class="project-title movie-hunt">Movie Hunt</p>
-                            <a href="https://reaganjoseph26.github.io/Movie-Hunt" target="_blank" ><img class="carousel-img" src="assets/images/Movie_Hunt.jpg" alt="Movie Hunt Project"></a>
-                        </li>
-                        <li class="carousel-item">
-                            <p class="project-title fitter">Fitter</p>
-                            <a href="https://frozen-ravine-95295.herokuapp.com/" target="_blank" ><img class="carousel-img" src="assets/images/fitter.jpg" alt="Fitter Porject"></a>
-                        </li>
-                        <li class="carousel-item">
-                            <p class="project-title book-search-engine">Book Search Engine</p>
-                            <a href="https://young-depths-23814.herokuapp.com/" target="_blank" ><img class="carousel-img" src="assets/images/book-search-engine.jpg" alt="Book Search Engine Project"></a>
-                        </li>
-                        <li class="carousel-item">
-                            <p class="project-title creepventures">CREEPVENTURES</p>
-                            <a href="https://peaceful-stream-83088.herokuapp.com/" target="_blank" > <img class="carousel-img" src="assets/images/creepventures.jpg" alt="CREEPVENTURES Project"></a>
-                        </li>
-                        <li class="carousel-item">
-                            <p class="project-title budget-tracker">Budget Tracker</p>
-                            <a href="https://stark-forest-55745.herokuapp.com/" target="_blank" ><img class="carousel-img" src="assets/images/budget-tracker.jpg" alt="Budget Tracker Project"></a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="carousel-button-right">
-                    <i class="fa fa-arrow-right"></i>
-                </button>
+        <!---P2--->
+        <div class="card"  data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="300">
+            <div class="content">
+                <h2 class="card-h2">P2</h2>
+                <h3 class="card-h3">Fitter</h3>
+                <img src="assets/images/fitter.jpg">
+                <a data-popup-id="p2" class="card-links">Read More</a>
+            </div>
+        </div>
+        <!---------PROJECT POPUP DIV------------>
+        <div id="p2" class="popup">
+            <p class="popup-text">Fitter is a health and fitness web application that allows users to set initial goals using a self-assessment quiz and daily goals by your personal calendar. Users can share personal stories to motivate each other.
+            <br>
+            Technologies/Tools: JavaScript, React, Express.js, Node.js, Mongo DB, HTML5, CSS3, Bootstrap, and JWT.
+            <br>
+            <div class="popup-links">
+                <a href="https://github.com/reaganjoseph26/Fitter" target="_blank">Link to Repo</a>
+                <a href="https://frozen-ravine-95295.herokuapp.com/" target="_blank">Deployed Link</a>
+            </div>
+            </p>
+            <a class="card-links">Close</a>
+        </div>
+
+        <!---P3--->
+        <div class="card" data-aos="zoom-in" data-aos-duration="2500" data-aos-offset="400">
+            <div class="content">
+                <h2 class="card-h2">P3</h2>
+                <h3 class="card-h3">Book Search</h3>
+                <img src="assets/images/book-search.jpg">
+                <a data-popup-id="p3" class="card-links">Read More</a>
+            </div>
+        </div>
+        <!---------PROJECT POPUP DIV------------>
+        <div id="p3" class="popup">
+            <p class="popup-text">Google Books Search Engine is a RESTful API and MERN stack web application built for users to search for any book and save that book, with the ability to delete the book.
+            <br>
+            Technologies/Tools: Mongo DB, Node.js, Express.js, and JavaScript.
+            <br>
+            <div class="popup-links">
+                <a href="https://github.com/reaganjoseph26/Book-Search-Engine" target="_blank">Link to Repo</a>
+                <a href="https://young-depths-23814.herokuapp.com/" target="_blank">Deployed Link</a>
+            </div>
+            </p>
+            <a class="card-links">Close</a>
+        </div>
+    </section>
+
+    <h2 class="work-header" data-aos="fade-right" data-aos-duration="800" data-aos-offset="100">Work Oppurtunities</h2>
+    <section class="work-section" data-aos="zoom-in-up" data-aos-duration="800" data-aos-offset="100">
+        <p>Currently I am working as a freelance developer. If you want to discuss work oppurtunities, project ideas, or just to chat, my inbox is open.</p>
+        <br>
+        <a class="mail-link" href ="mailto:reaganjoseph26@yahoo.com" target="_tab">Let's Chat!<i class="far fa-envelope right"></i></a>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-copyright"> © 2021 Reagan Joseph, Web Dev</p>
+        <div class="footer-container">
+            <a href="mailto:reaganjoseph26@yahoo.com" target="_blank"><i class="fas fa-envelope"></i></a>
+
+            <a href="https://www.linkedin.com/in/reagan-joseph-10a0941b6/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+            <a href="https://github.com/reaganjoseph26" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>       
     
-                <div class="carousel-nav current-item">
-                    <button class="carousel-indicator current-slide"></button>
-                    <button class="carousel-indicator"></button>
-                    <button class="carousel-indicator"></button>
-                    <button class="carousel-indicator"></button>
-                    <button class="carousel-indicator"></button>
-                </div>
-            </div>    
-        </section>
-        
-        <div class="contact-h4">
-            <h4> Contact.</h4>
-        </div>
-        <section id="contact" class="contact-info">
-            
-            <div class="card">
-                <a href="mailto:reaganjoseph26@yahoo.com"><i class="card-icon far fa-envelope"></i></a>
-            </div>
-            <div class="card">
-                <a href="https://www.linkedin.com/in/reagan-joseph-10a0941b6/" target="_blank"><i class="card-icon fab fa-linkedin"></i></a>
-            </div>
-            <div class="card">
-                <a href="https://github.com/reaganjoseph26" target="_blank"><i class="card-icon fab fa-github"></i></a>
-            </div>
-        </section>
-     
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
-        <script src="./js/script.js"></script>
-
-    </body>
-
-
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+    <!--VANILLA TILT-->
+    <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
+
