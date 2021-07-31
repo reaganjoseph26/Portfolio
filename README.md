@@ -3,7 +3,6 @@
 ## Description
 A clean design site introducing myself, the best projects I have completed, and how to contact me.
 
-
 ## Table of Contents
 * [Technologies](#installation)
 * [Usage](#usage)
