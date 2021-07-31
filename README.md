@@ -17,6 +17,7 @@ Vanilla-tilt
 
 ## Usage
 ### Preview images of day and dark mode portfolio.
+[My Portfolio](https://reaganjoseph26.github.io/Portfolio/)
 ![ScreenShot](./assets/images/dayMode.jpg)
 </br>
 ![ScreenShot](./assets/images/dayMode2.jpg)
