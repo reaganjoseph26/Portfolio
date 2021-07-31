@@ -23,7 +23,7 @@ Vanilla-tilt
 </br>
 ![ScreenShot](./assets/images/darkMode.jpg)
 </br>
-![ScreenShot](./assets/images/dark2Mode.jpg)
+![ScreenShot](./assets/images/darkMode2.jpg)
 
 ## Questions
 If you have any additional questions, please reach out to me. 
